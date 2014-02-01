@@ -5,6 +5,7 @@ public class Endereco {
 	private String bairro;
 	private String cidade;
 	private int numero;
+	
 	public String getRua() {
 		return rua;
 	}
