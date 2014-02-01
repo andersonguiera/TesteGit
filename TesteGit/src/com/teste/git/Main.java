@@ -3,8 +3,11 @@ package com.teste.git;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Olá mundo.\nUma quebra de linha.");
+		Pessoa pessoa = new Pessoa();
+		
+		pessoa.setNome("Anderson");
+		pessoa.setSobrenome("Guiera");
+		System.out.println("Olá " + pessoa.getNomeCompleto());
 	}
 
 }
