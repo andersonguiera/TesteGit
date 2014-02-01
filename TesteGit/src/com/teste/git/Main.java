@@ -7,13 +7,14 @@ public class Main {
 		
 		pessoa.setNome("Anderson");
 		pessoa.setSobrenome("Guiera");
-		System.out.println("Ol· " + pessoa.getNomeCompleto());
+		System.out.println("Ol√° " + pessoa.getNomeCompleto());
 		Endereco endereco = new Endereco();
 		
 		endereco.setRua("Carlos Gomes");
 		endereco.setNumero(23);
 		endereco.setBairro("Centro");
 		endereco.setCidade("Curitiba");
+		endereco.setUF("PR");
 		System.out.println(endereco.getEnderecoCompleto());
 	}
 

@@ -4,6 +4,14 @@ public class Endereco {
 	private String rua;
 	private String bairro;
 	private String cidade;
+	private String UF;
+	public String getUF() {
+		return UF;
+	}
+	public void setUF(String uF) {
+		UF = uF;
+	}
+
 	private int numero;
 	public String getRua() {
 		return rua;
@@ -31,6 +39,6 @@ public class Endereco {
 	}
 	
 	public String getEnderecoCompleto() {
-		return "Rua: " + rua + ", " + numero + "\n" + bairro + "\n" + cidade; 
+		return "Rua " + rua + ", " + numero + "\n" + bairro + "\n" + cidade + " - " + UF; 
 	}
 }
