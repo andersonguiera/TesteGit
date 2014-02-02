@@ -13,6 +13,7 @@ public class Endereco {
 	}
 
 	private int numero;
+	
 	public String getRua() {
 		return rua;
 	}
